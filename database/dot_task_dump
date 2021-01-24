@@ -1,0 +1,18 @@
+
+
+CREATE SCHEMA `dot_task` ;
+
+CREATE TABLE `dot_task`.`student` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(90) NULL,
+  `country` VARCHAR(90) NULL,
+  PRIMARY KEY (`id`));
+
+
+CREATE TABLE `dot_task`.`user` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `user_name` VARCHAR(90) NULL,
+  `password` VARCHAR(90) NULL,
+  PRIMARY KEY (`id`));
+
+

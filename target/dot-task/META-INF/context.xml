@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/"
+         crossContext="true" reloadable="true" debug="1" >
+    <!-- Specify a JDBC datasource for mySql -->
+    <Resource name="jdbc/dot_task"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="root"
+              password="root@JEA"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/dot_task?characterEncoding=UTF-8"
+              maxActive="10"
+              maxIdle="4"
+              maxWait="1000"
+    />
+</Context>
